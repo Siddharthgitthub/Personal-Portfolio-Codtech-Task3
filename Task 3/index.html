@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#github" class="nav-link">GitHub</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi! I'm Siddharth Singh, a passionate web developer who loves creating beautiful and functional websites. I specialize in front-end development and have experience with modern web technologies like HTML, CSS, JavaScript, and React.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio website to showcase my projects and skills. Built with HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="project">
+                    <h3>Weather App</h3>
+                    <p>A weather application that shows real-time weather data using a public API.</p>
+                </div>
+                <div class="project">
+                    <h3>Quiz Application</h3>
+                    <p>An interactive quiz application with dynamic questions and instant feedback.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="github" class="section">
+        <div class="container">
+            <h2>GitHub Projects</h2>
+            <p>Below are some of my GitHub repositories. Click on any repository to explore it:</p>
+            <ul id="github-projects"></ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>If you'd like to work together or just say hi, feel free to reach out!</p>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div id="form-response" style="margin-top: 10px; color: green; display: none;"></div>
+        </div>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
